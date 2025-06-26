@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-import matplotlib.pyplot as plt
+
 
 # Load model and label encoder
 model = joblib.load("ffnn_model.pkl")
