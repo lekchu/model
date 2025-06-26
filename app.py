@@ -96,7 +96,6 @@ if st.button("🔍 Predict Risk Level"):
     # Visualize
     st.divider()
     st.subheader("📊 Risk Level Chart")
-    fig, ax = plt.subplots()
     ax.bar(["Predicted Risk"], [pred_encoded], color="tomato")
     ax.set_ylim([0, 3])
     ax.set_ylabel("Risk Level (0 = Mild → 3 = Profound)")
